@@ -99,7 +99,3 @@ File yang digunakan:
 - `data_nasabah.txt`
 - `data_transaksi.txt`
 - `log_aplikasi.txt`
-
-```text
-UAS_AP2_Karyawan_25306622096_ReihanAgam.zip
-```
