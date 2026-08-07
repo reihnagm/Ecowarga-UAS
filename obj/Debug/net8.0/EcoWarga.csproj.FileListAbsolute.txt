@@ -1,0 +1,14 @@
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/bin/Debug/net8.0/EcoWarga
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/bin/Debug/net8.0/EcoWarga.deps.json
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/bin/Debug/net8.0/EcoWarga.runtimeconfig.json
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/bin/Debug/net8.0/EcoWarga.dll
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/bin/Debug/net8.0/EcoWarga.pdb
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.AssemblyInfoInputs.cache
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.AssemblyInfo.cs
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.csproj.CoreCompileInputs.cache
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.dll
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/refint/EcoWarga.dll
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.pdb
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.genruntimeconfig.cache
+/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/ref/EcoWarga.dll

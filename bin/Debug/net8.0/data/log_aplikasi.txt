@@ -1,0 +1,10 @@
+[2026-08-07 17.52.02] [INFO] Data dimuat. Nasabah=0, Transaksi=0
+[2026-08-07 17.52.23] [INFO] Data disimpan. Nasabah=1, Transaksi=0
+[2026-08-07 17.52.23] [INFO] Nasabah ditambahkan: 1 - Budi
+[2026-08-07 17.52.32] [INFO] Data dimuat. Nasabah=1, Transaksi=0
+[2026-08-07 17.52.38] [INFO] Data disimpan. Nasabah=1, Transaksi=0
+[2026-08-07 17.52.51] [INFO] Data disimpan. Nasabah=1, Transaksi=0
+[2026-08-07 17.53.32] [INFO] Data disimpan. Nasabah=2, Transaksi=0
+[2026-08-07 17.53.32] [INFO] Nasabah ditambahkan: 2 - Agam
+[2026-08-07 17.53.53] [INFO] Data disimpan. Nasabah=2, Transaksi=0
+[2026-08-07 17.54.10] [INFO] Data disimpan. Nasabah=2, Transaksi=0

@@ -1,0 +1,1 @@
+Tipe|IdTransaksi|IdNasabah|Nama|Alamat|JenisSampah|Berat|Tanggal|Status

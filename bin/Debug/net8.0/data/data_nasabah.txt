@@ -1,0 +1,3 @@
+IdNasabah|Nama|Alamat
+1|Budi|JL Kenangan
+2|Agam|JL Ketemu

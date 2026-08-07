@@ -100,12 +100,6 @@ File yang digunakan:
 - `data_transaksi.txt`
 - `log_aplikasi.txt`
 
-## Nama ZIP untuk Pengumpulan
-
-Ganti nama ZIP sesuai format dosen:
-
 ```text
-UAS_AP2_Kelas_NIM_Nama.zip
+UAS_AP2_Karyawan_25306622096_ReihanAgam.zip
 ```
-
-Sebelum dikumpulkan, isi identitas pada `docs/Laporan_Ringkas.md` dan sesuaikan nama folder/ZIP.

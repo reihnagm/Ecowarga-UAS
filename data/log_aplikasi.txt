@@ -1,0 +1,6 @@
+[2026-08-07 18.02.42] [INFO] Data disimpan. Nasabah=1, Transaksi=0
+[2026-08-07 18.02.42] [INFO] Nasabah ditambahkan: 1 - Agam
+[2026-08-07 18.03.04] [INFO] Data disimpan. Nasabah=1, Transaksi=0
+[2026-08-07 18.04.47] [INFO] Data dimuat. Nasabah=1, Transaksi=0
+[2026-08-07 18.05.02] [INFO] Data disimpan. Nasabah=1, Transaksi=1
+[2026-08-07 18.05.02] [INFO] Setoran langsung berhasil: 1

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hmW0kUKOV68=",
+  "success": true,
+  "projectFilePath": "/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/EcoWarga.csproj",
+  "expectedPackageFiles": [
+    "/Users/reihanagam/.nuget/packages/microsoft.netcore.app.ref/8.0.27/microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "/Users/reihanagam/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.27/microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "/Users/reihanagam/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.27/microsoft.netcore.app.host.osx-arm64.8.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,2 @@
+Tipe|IdTransaksi|IdNasabah|Nama|Alamat|JenisSampah|Berat|Tanggal|Status
+SETORAN|1|1|Agam|Jl Kenangan|Plastik|5|2026-08-07T18:05:02.2529760+07:00|Selesai

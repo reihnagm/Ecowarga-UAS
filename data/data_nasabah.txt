@@ -1,0 +1,2 @@
+IdNasabah|Nama|Alamat
+1|Agam|Jl Kenangan
