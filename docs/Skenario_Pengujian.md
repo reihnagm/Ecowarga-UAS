@@ -8,13 +8,13 @@ Gunakan bagian ini saat demo dan saat mengambil screenshot.
 
 - ID: `N001`
 - Nama: `Budi`
-- Alamat: `Jakarta`
+- Alamat: `Jl Duren`
 
 ### Nasabah 2
 
 - ID: `N002`
-- Nama: `Siti`
-- Alamat: `Depok`
+- Nama: `Agam`
+- Alamat: `Jl Apel`
 
 ---
 

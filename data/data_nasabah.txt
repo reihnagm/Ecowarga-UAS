@@ -1,0 +1,3 @@
+IdNasabah|Nama|Alamat
+N001|Agam|Jl Apel
+N002|Budi|Jl Duren

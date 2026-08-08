@@ -1,0 +1,14 @@
+[2026-08-08 16:33:41] [INFO] Nasabah ditambahkan: N001 - Agam
+[2026-08-08 16:33:58] [INFO] Nasabah ditambahkan: N002 - Budi
+[2026-08-08 16:34:28] [ERROR] Minimum penjemputan tidak terpenuhi: Penjemputan rumah minimal 2 kg. Berat yang dimasukkan: 1.5 kg.
+[2026-08-08 16:35:08] [INFO] Penjemputan rumah berhasil: 1
+[2026-08-08 16:36:01] [ERROR] Validasi transaksi gagal: ID transaksi sudah digunakan. Gunakan ID lain.
+[2026-08-08 16:36:37] [INFO] Setoran langsung berhasil: 2
+[2026-08-08 16:37:11] [INFO] Data disimpan. Nasabah=2, Transaksi=2
+[2026-08-08 16:37:27] [INFO] Aplikasi ditutup dengan aman.
+[2026-08-08 16:37:30] [INFO] Data dimuat. Nasabah=2, Transaksi=2
+[2026-08-08 16:38:41] [INFO] Status 2 diubah menjadi Dibatalkan.
+[2026-08-08 16:51:15] [INFO] Aplikasi ditutup dengan aman.
+[2026-08-08 17:11:03] [INFO] Data dimuat. Nasabah=2, Transaksi=2
+[2026-08-08 17:11:16] [ERROR] Validasi transaksi gagal: ID transaksi sudah digunakan. Gunakan ID lain.
+[2026-08-08 17:11:39] [INFO] Setoran langsung berhasil: 3

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoWarga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+832853fdac94d7dbbc454a28e921ca02f6ca76bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38be3768191fff2a1ce08e22a1be112b72d39958")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoWarga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoWarga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
