@@ -99,7 +99,3 @@ File yang digunakan:
 - `data_nasabah.txt`
 - `data_transaksi.txt`
 - `log_aplikasi.txt`
-
-REIHAN AGAM
-25306622096
-KARYAWAN
