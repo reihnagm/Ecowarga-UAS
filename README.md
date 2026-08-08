@@ -57,6 +57,9 @@ EcoWarga_UAS_AP2/
 │   ├── EcoWargaManager.cs
 │   └── Logger.cs
 ├── data/
+│   ├── data_nasabah.txt
+│   └── data_transaksi.txt
+│   └── log_aplikasi.txt
 └── docs/
     ├── Diagram_Kelas.md
     ├── Laporan_Ringkas.md
