@@ -91,7 +91,7 @@ atau install .NET 8 runtime/SDK.
 Saat aplikasi dijalankan, file dibuat di folder output aplikasi:
 
 ```text
-bin/Debug/net8.0/data/
+data/
 ```
 
 File yang digunakan:
