@@ -19,25 +19,20 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
 
     public EcoWargaManager()
     {
-        // Mengambil lokasi folder tempat project dijalankan.
         string projectFolder = Directory.GetCurrentDirectory();
 
-        // Menentukan folder penyimpanan data.
         _dataFolder = Path.Combine(projectFolder, "data");
 
-        // Menentukan lokasi file nasabah.
         _nasabahFile = Path.Combine(
             _dataFolder,
             "data_nasabah.txt"
         );
 
-        // Menentukan lokasi file transaksi.
         _transaksiFile = Path.Combine(
             _dataFolder,
             "data_transaksi.txt"
         );
 
-        // Menentukan lokasi file log aplikasi.
         _logger = new Logger(
             Path.Combine(
                 _dataFolder,
@@ -45,7 +40,6 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
             )
         );
 
-        // Membuat folder data jika belum tersedia.
         Directory.CreateDirectory(_dataFolder);
     }
 
@@ -98,10 +92,8 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
                         TampilkanNasabah();
                         break;
                     case "0":
-                        SimpanData();
                         berjalan = false;
                         _logger.Tulis("INFO", "Aplikasi ditutup dengan aman.");
-                        Console.WriteLine("Data telah disimpan. Sampai jumpa!");
                         break;
                     default:
                         InputHelper.TulisError("Menu tidak tersedia.");
@@ -164,7 +156,6 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
             ValidasiNasabah(nasabah);
             _nasabah.Add(nasabah);
 
-            SimpanData();
             _logger.Tulis("INFO", $"Nasabah ditambahkan: {nasabah.Id} - {nasabah.Nama}");
             InputHelper.TulisSukses("Nasabah berhasil ditambahkan.");
         }
@@ -203,7 +194,6 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
             );
 
             _layanan.Add(transaksi);
-            SimpanData();
             _logger.Tulis("INFO", $"Setoran langsung berhasil: {idTransaksi}");
 
             Console.WriteLine();
@@ -250,7 +240,6 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
             );
 
             _layanan.Add(transaksi);
-            SimpanData();
             _logger.Tulis("INFO", $"Penjemputan rumah berhasil: {idTransaksi}");
 
             Console.WriteLine();
@@ -261,7 +250,6 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
         {
             InputHelper.TulisError(ex.Message);
             _logger.Tulis("ERROR", $"Minimum penjemputan tidak terpenuhi: {ex.Message}");
-            Console.WriteLine("Program tetap berjalan dan kembali ke menu setelah ini.");
         }
         catch (BeratTidakValidException ex)
         {
@@ -320,7 +308,7 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
 
     private void TampilkanSemuaLayanan()
     {
-        InputHelper.TulisJudul("Seluruh Layanan - Polymorphic Collection");
+        InputHelper.TulisJudul("Seluruh Layanan");
 
         if (_layanan.Count == 0)
         {
@@ -365,10 +353,16 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
     private void UbahStatusLayanan()
     {
         InputHelper.TulisJudul("Ubah Status Layanan");
-        string idTransaksi = InputHelper.BacaTeksWajib("ID Transaksi: ");
+
+        string idTransaksi = InputHelper.BacaTeksWajib(
+            "ID Transaksi: "
+        );
 
         LayananSampah? transaksi = _layanan.FirstOrDefault(
-            l => l.IdTransaksi.Equals(idTransaksi, StringComparison.OrdinalIgnoreCase)
+            l => l.IdTransaksi.Equals(
+                idTransaksi,
+                StringComparison.OrdinalIgnoreCase
+            )
         );
 
         if (transaksi is null)
@@ -378,12 +372,27 @@ public class EcoWargaManager : IValidasiData, IPersistensiData, ILaporan
         }
 
         Console.WriteLine($"Status saat ini: {transaksi.Status}");
-        StatusLayanan statusBaru = InputHelper.PilihStatusLayanan();
-        transaksi.UbahStatus(statusBaru);
 
-        SimpanData();
-        _logger.Tulis("INFO", $"Status {idTransaksi} diubah menjadi {statusBaru}.");
-        InputHelper.TulisSukses($"Status berhasil diubah menjadi {statusBaru}.");
+        StatusLayanan? statusBaru =
+            InputHelper.PilihStatusLayanan();
+
+        if (statusBaru is null)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Perubahan status dibatalkan.");
+            return;
+        }
+
+        transaksi.UbahStatus(statusBaru.Value);
+
+        _logger.Tulis(
+            "INFO",
+            $"Status {idTransaksi} diubah menjadi {statusBaru.Value}."
+        );
+
+        InputHelper.TulisSukses(
+            $"Status berhasil diubah menjadi {statusBaru.Value}."
+        );
     }
 
     public void ValidasiNasabah(Nasabah nasabah)

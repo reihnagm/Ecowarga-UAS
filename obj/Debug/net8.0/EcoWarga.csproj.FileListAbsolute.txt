@@ -12,3 +12,18 @@
 /Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.pdb
 /Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/EcoWarga.genruntimeconfig.cache
 /Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/Debug/net8.0/ref/EcoWarga.dll
+C:\Users\reihnagm\Ecowarga-UAS\bin\Debug\net8.0\EcoWarga.exe
+C:\Users\reihnagm\Ecowarga-UAS\bin\Debug\net8.0\EcoWarga.deps.json
+C:\Users\reihnagm\Ecowarga-UAS\bin\Debug\net8.0\EcoWarga.runtimeconfig.json
+C:\Users\reihnagm\Ecowarga-UAS\bin\Debug\net8.0\EcoWarga.dll
+C:\Users\reihnagm\Ecowarga-UAS\bin\Debug\net8.0\EcoWarga.pdb
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.AssemblyInfoInputs.cache
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.AssemblyInfo.cs
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.csproj.CoreCompileInputs.cache
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.sourcelink.json
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.dll
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\refint\EcoWarga.dll
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.pdb
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\EcoWarga.genruntimeconfig.cache
+C:\Users\reihnagm\Ecowarga-UAS\obj\Debug\net8.0\ref\EcoWarga.dll

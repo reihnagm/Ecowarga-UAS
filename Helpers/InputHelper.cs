@@ -76,20 +76,34 @@ public static class InputHelper
         }
     }
 
-    public static StatusLayanan PilihStatusLayanan()
+    public static StatusLayanan? PilihStatusLayanan()
     {
         while (true)
         {
             Console.WriteLine("\nStatus Layanan:");
+
             foreach (StatusLayanan status in Enum.GetValues<StatusLayanan>())
             {
                 Console.WriteLine($"{(int)status}. {status}");
             }
 
-            Console.Write("Pilih status [1-4]: ");
+            Console.WriteLine("0. Kembali");
+
+            Console.Write("Pilih status [0-4]: ");
             string input = (Console.ReadLine() ?? string.Empty).Trim();
 
-            if (int.TryParse(input, out int pilihan) && Enum.IsDefined(typeof(StatusLayanan), pilihan))
+            if (!int.TryParse(input, out int pilihan))
+            {
+                TulisError("Input harus berupa angka.");
+                continue;
+            }
+
+            if (pilihan == 0)
+            {
+                return null;
+            }
+
+            if (Enum.IsDefined(typeof(StatusLayanan), pilihan))
             {
                 return (StatusLayanan)pilihan;
             }
@@ -97,7 +111,6 @@ public static class InputHelper
             TulisError("Pilihan status tidak valid.");
         }
     }
-
     public static void TulisJudul(string judul)
     {
         Console.WriteLine();

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/EcoWarga.csproj": {}
+    "C:\\Users\\reihnagm\\Ecowarga-UAS\\EcoWarga.csproj": {}
   },
   "projects": {
-    "/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/EcoWarga.csproj": {
+    "C:\\Users\\reihnagm\\Ecowarga-UAS\\EcoWarga.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/EcoWarga.csproj",
+        "projectUniqueName": "C:\\Users\\reihnagm\\Ecowarga-UAS\\EcoWarga.csproj",
         "projectName": "EcoWarga",
-        "projectPath": "/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/EcoWarga.csproj",
-        "packagesPath": "/Users/reihanagam/.nuget/packages/",
-        "outputPath": "/Users/reihanagam/Documents/my-file/kuliah/unas/Algoritma dan Pemograman/UAS/EcoWarga_UAS_AP2/obj/",
+        "projectPath": "C:\\Users\\reihnagm\\Ecowarga-UAS\\EcoWarga.csproj",
+        "packagesPath": "C:\\Users\\reihnagm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reihnagm\\Ecowarga-UAS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/reihanagam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\reihnagm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -39,11 +38,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -59,15 +57,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.24, 8.0.24]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.27, 8.0.27]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.24, 8.0.24]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
             }
           ],
           "frameworkReferences": {
@@ -75,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
